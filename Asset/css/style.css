@@ -1,0 +1,136 @@
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    background-color: #e91e63;
+    color: #ffff;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e91e63;
+    color: #ffff;
+}
+/* Animasi ke bawah saat collapse dibuka */
+.navbar-collapse {
+    animation: slide-down 0.5s ease;
+}
+/* Animasi ke bawah saat dropdown menu dibuka */
+.dropdown-menu {
+    animation: slide-down 0.5s ease;
+}
+.btn-custom {
+  background-color: #e91e63;
+  border-color: #e91e63;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #d81b60;
+  border-color: #d81b60;
+  color: white;
+}
+.btn-custom.focus {
+  background-color: #d81b60;
+  border-color: #d81b60;
+  box-shadow: 0 0 0 0.2rem rgba(233, 30, 99, 0.5);
+}
+/* Pagination styling */
+.pagination {
+  justify-content: center;
+}
+
+.pagination .page-link {
+  color: #e91e63; /* Warna teks untuk tautan halaman */
+  border: none;
+  background-color: transparent;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #e91e63; /* Warna latar belakang untuk halaman saat ini */
+  border-color: #e91e63; /* Warna border untuk halaman saat ini */
+  color: #fff; /* Warna teks untuk halaman saat ini */
+}
+
+.pagination .page-link:hover {
+  color: #d81b60; /* Warna teks saat hover */
+}
+
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+  border-radius: 0; /* Menghapus border-radius pada tautan pertama dan terakhir */
+}
+
+.pagination .page-item.active .page-link:hover {
+  background-color: #d81b60; /* Warna latar belakang untuk halaman saat ini saat hover */
+}
+
+ .carousel-item img {
+            object-fit: cover;
+            height: 500px;
+        }
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+        }
+        .carousel-caption h5 {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 5px 10px;
+        }
+        .carousel-caption p {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 5px 10px;
+        }
+        
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+ #map {
+      height: 500px;
+      width: 100%;
+    }
+
+.leader-item {
+        display: flex;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .leader-details {
+        flex: 1;
+    }
+
+    .leader-details p {
+        margin: 5px 0;
+    }
+
+    .leader-photo {
+        margin-left: 20px;
+    }
+
+    .leader-photo img {
+        border-radius: 5px;
+    }
+footer {
+            background-color: #fff; /* Warna utama footer */
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan */
+        }
+        .footer-bottom {
+            background-color: #b31650; /* Warna bawah footer yang lebih gelap */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+        }
+        a.text-white:hover {
+            text-decoration: underline;
+        }
